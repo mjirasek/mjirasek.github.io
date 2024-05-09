@@ -157,17 +157,17 @@ career-profile:
 #         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 
-# publications:
-#     title: Publications
+publications:
+    title: Publications
 #     intro: |
 #       You can list your publications in this section. Lorem ipsum dolor sit
 #       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
 #       bibendum fringilla a eu lectus.
-#     papers:
-#       - title: The Art of Computer Programming
-#         link: "#"
-#         authors: Donald E. Knuth
-#         conference: Addison-Wesley, 1968
+    papers:
+      - title: Investigating and Quantifying Molecular Complexity using Assembly Theory and Spectroscopy
+        link: "https://doi.org/10.1021/acscentsci.4c00120"
+        authors: M. Jirasek, A. Sharma, J. R. Bame, N. Bell, S. M. Marshall, C. Mathis, A. Macleod, G. J. T. Cooper, M. Swart, R. Mollfulleda, L. Cronin
+        journal: ACS Central Science, 2024, xx, xxx-xxx
 
 #       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
 #         link: "#"
