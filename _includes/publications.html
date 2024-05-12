@@ -17,7 +17,35 @@
   {% endif %}
 
   {% for publication in publications.papers %}
-  <div class="item">
+
+  <button id="show_less">Show Selected Papers</button>
+  <button id="show_all">Show All Papers</button>
+
+  <div class="reference_js">
+    <!-- <div class="image">
+      <img src="img_ref/ref01.png" alt="Image">
+    </div> -->
+    <div class="paper_details">
+      <p class="paper_name"></p>
+      <!-- <p class="summary_of_paper"></p><br> -->
+      <!-- <p class="my_contribution"></p> -->
+      <div class="paper_reference">
+        <p class="paper_authors"></p>
+        <p class="paper_journal"></p>
+        <p class="paper_year"></p>
+        <p class="paper_volume"></p>
+        <p class="paper_pages"></p>
+        <p class="paper_doi"></p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="../my_cv/test.js"></script>
+  <script src="../my_cv/script.js"></script>
+
+
+  <!-- <div class="item">
     {% if publication.link %}
       <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
     {% else %}
@@ -25,7 +53,7 @@
     {% endif %}
     <div class="publication-authors">{{ publication.authors }}</div>
     <div class="publication-conference">{{ publication.journal }}</div>
-  </div><!--//item-->
+  </div>//item -->
   {% endfor %}
 
 </section><!--//section-->
