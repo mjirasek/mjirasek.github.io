@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Michael Jirasekn
+      value: Michael Jirasek
     - name: Date of Birth
       value: May 1991
     - name: Languages
@@ -61,3 +61,4 @@
       description:
         - Description 1.
         - Description 2.
+
