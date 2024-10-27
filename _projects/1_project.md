@@ -2,7 +2,7 @@
 layout: page
 title: Alien Detector
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/aliens.png
 importance: 1
 category: work
 related_publications: true
