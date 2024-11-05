@@ -4,12 +4,10 @@
     "label": "Scientist",
     "image": "",
     "email": "jirasekphd@gmail.com",
-    "phone": " ",
     "url": "https://www.michaeljirasek.com/",
-    "summary": "Hi, my description",
     "location": {
       "address": "ARC Glasgow",
-      "postalCode": "G1",
+      "postalCode": "G11 6EW",
       "city": "Glasgow",
       "countryCode": "UK",
       "region": "Scotland"
@@ -24,24 +22,59 @@
   },
   "work": [
     {
-      "name": "University of Oxford, Oxford, United Kingdom",
-      "position": "Postdoctoral Research Assistant",
-      "startDate": "2020-01-01",
-      "endDate": "2020-01-31",
-      "summary": "I was working there. .",
-      "highlights": ["Aromaticity", "Computational Chemistry", "Quantum Chemistry"]
-    }
-  ],
-  "volunteer": [
+      "name": "University of Glasgow",
+      "position": "Research Fellow",
+      "location": "Glasgow, United Kingdom",
+      "startDate": "2022-01-05",
+      "endDate": "",
+      "summary": "I am team leader, I oversee a team of researchers in AI and chemistry automation, making key project decisions and coordinating individual activities to drive scientific discovery. I manage projects involving AI tools and chemoinformatics, supporting the development of autonomous systems for chemical research, including a literature parser that standardizes procedures for robotic execution, addressing reproducibility in chemical research. Additionally, I design and build chemical robots, adapt to diverse programming tasks.",
+      "highlights": [
+        "AI in Chemistry",
+        "Hardware Development",
+        "Software Development",
+        "Chemoinformatics",
+        "Chemical Robotics",
+        "Autonomous Discovery"
+      ]
+    },
     {
-      "organization": "ssss",
-      "location": "ssss",
-      "position": "ssss",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "ssss.",
-      "highlights": ["ssss"]
+      "name": "University of Oxford, Oxford, United Kingdom",
+      "location": "Oxford, United Kingdom",
+      "position": "Postdoctoral Research Assistant",
+      "startDate": "2020-01-05",
+      "endDate": "2020-01-31",
+      "summary": "As a researcher, I developed MATLAB software to process NMR data from published literature, conceived amid COVID lockdown challenges. I also conducted a quantum chemical study on molecular flexibility and aromaticity, with findings published in top peer-reviewed journals. This experience strengthened my programming and data science skills and highlighted my adaptability in difficult conditions.",
+      "highlights": [
+        "Aromaticity",
+        "Computational Chemistry",
+        "Quantum Chemistry"
+      ]
+    },
+    {
+      "name": "ETH Zurich",
+      "location": "Zurich, Switzerland",
+      "url": "https://wennemers.ethz.ch/",  
+      "position": "Postdoctoral Research Assistant",
+      "startDate": "2021-01-03",
+      "endDate": "2021-12-31",
+      "summary": "I developed novel soft materials by synthesizing collagen-like peptides combined with metals, analyzing their structure through transmission electron microscopy and XRD. I also designed and mentored M.Sc. student projects, providing guidance on research and thesis work.",
+      "highlights": [
+        "MOF",
+        "Peptide Synthesis"
+      ]
+    },
+    {
+      "name": "Institute of Organic Chemsitry and Biochemistry, Czech Academy of Sciences",
+      "position": "technician",
+      "location": "Prague, Czech Republic",
+      "startDate": "2010-09-01",
+      "endDate": "2014-09-01",
+      "summary": "I was synthesising organic compounds for biological testing, purifying and characterizing them using NMR and mass spectrometry.",
+      "highlights": [
+        "Organic Chemistry",
+        "Racemate Resolution",
+        "Dye Synthesis"
+      ]
     }
   ],
   "education": [
@@ -53,8 +86,11 @@
       "studyType": "PhD",
       "startDate": "2016-01-10",
       "endDate": "2019-12-31",
-      "score": "10",
-      "courses": ["Advanced NMR", "Advanced Organic Chemistry", "Advanced Physical Organic Chemistry"]
+      "courses": [
+        "Advanced NMR",
+        "Advanced Organic Chemistry",
+        "Advanced Physical Organic Chemistry"
+      ]
     },
     {
       "institution": "University of Chemistry and Technology",
@@ -63,9 +99,35 @@
       "area": "Organic Chemistry",
       "studyType": "MSc",
       "startDate": "2013-10-01",
+      "score": "distinction",
       "endDate": "2016-06-30",
-      "score": "10",
-      "courses": ["Organic Chemistry A B"]
+      "courses": [
+        "Organic Synthesis",
+        "Retrosynthesis",
+        "Reaction Mechanisms",
+        "Chemical Calculations",
+        "Organic Chemistry of Selected Elements (B, F, S, Si etc.)",
+        "Coordination Chemistry",
+        "Metal-Organic Chemistry",
+        "Supramolecular Chemistry",
+        "Physical-Organic Chemistry",
+        "Organic Technology"
+      ]
+    },
+    {
+      "institution": "ETH Zurich",
+      "location": "Zurich, Switzerland",
+      "url": "https://chab.ethz.ch/en/research/institutes/LOC.html",
+      "area": "Organic Chemistry",
+      "studyType": "internship, Erasmus",
+      "startDate": "2014-09-03",
+      "endDate": "2015-08-30",
+      "courses": [
+        "Advanced Methods and Strategies in Synthesis",
+        "Organic Synthesis: Methods and Strategies",
+        "Computer-Assisted Drug Design",
+        "Functional Inorganics"
+      ]
     },
     {
       "institution": "University of Chemistry and Technology",
@@ -73,37 +135,23 @@
       "url": "https://www.vscht.cz//?jazyk=en",
       "area": "Chemistry",
       "studyType": "BSc",
-      "startDate": "2010-10-01",
-      "endDate": "2013-06-30",
-      "score": "10",
-      "courses": ["all king of Organic Chemistry A B"]
-    }
-  ],
-
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-
-  "Selected publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "startDate": "2010-09-07",
+      "endDate": "2013-05-15",
+      "score": "distinction",
+      "courses": [
+        "Mathematics",
+        "Analytical Chemistry",
+        "General and Inorganic Chemistry",
+        "Organic Chemistry",
+        "Mathematics",
+        "Physics",
+        "Chemical Engineering",
+        "Physical Chemistry",
+        "Analytical Chemistry",
+        "Inorganic Chemistry",
+        "Organic Chemistry",
+        "Biochemistry"
+      ]
     }
   ],
   "skills": [
@@ -119,41 +167,29 @@
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
+      "language": "Czech",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "Basic",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Chemistry automation",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing"
+        "Hardware design in CAD",
+        "Writing firmware for microcontrollers"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor Harry Anderson",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }
