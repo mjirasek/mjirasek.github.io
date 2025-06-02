@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-description:  I am a team leader in a Lee Cronin research group at the University of Glasgow. My team specializes in robotic chemistry, machine learning, and automation in chemistry. I oversee team performance, set objectives, and supervise individual projects. Over years I have developed pleathora of skills. I have started my scientific carreir as an organic chemists, than more to physical-organic chemistry and expert in many spectorscpoic teqhcniques. Eventually I movedto the field of automation of chemistry. I have authored 22 scientific publications and one patent.
+description: I am a team leader in the Lee Cronin research group at the University of Glasgow. My team specializes in robotic chemistry, machine learning, and automation in chemistry. I oversee team performance, set objectives, and supervise individual projects. Over the years, I have developed a plethora of skills. I started my scientific career as an organic chemist, then moved to physical-organic chemistry and became an expert in many spectroscopic techniques. Eventually, I transitioned to the field of chemistry automation. I have authored 22 scientific publications and one patent.
 toc:
-  sidebar: left
+ sidebar: left
 ---

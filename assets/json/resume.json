@@ -27,7 +27,7 @@
       "location": "Glasgow, United Kingdom",
       "startDate": "2022-01-05",
       "endDate": "",
-      "summary": "I am team leader, I oversee a team of researchers in AI and chemistry automation, making key project decisions and coordinating individual activities to drive scientific discovery. I manage projects involving AI tools and chemoinformatics, supporting the development of autonomous systems for chemical research, including a literature parser that standardizes procedures for robotic execution, addressing reproducibility in chemical research. Additionally, I design and build chemical robots, adapt to diverse programming tasks.",
+      "summary": "I am a team leader who oversees a team of researchers in AI and chemistry automation, making key project decisions and coordinating individual activities to drive scientific discovery. I manage projects involving AI tools and chemoinformatics, supporting the development of autonomous systems for chemical research, including a literature parser that standardizes procedures for robotic execution, addressing reproducibility in chemical research. Additionally, I design and build chemical robots and adapt to diverse programming tasks.",
       "highlights": [
         "AI in Chemistry",
         "Hardware Development",
@@ -64,12 +64,12 @@
       ]
     },
     {
-      "name": "Institute of Organic Chemsitry and Biochemistry, Czech Academy of Sciences",
+      "name": "Institute of Organic Chemistry and Biochemistry, Czech Academy of Sciences",
       "position": "technician",
       "location": "Prague, Czech Republic",
       "startDate": "2010-09-01",
       "endDate": "2014-09-01",
-      "summary": "I was synthesising organic compounds for biological testing, purifying and characterizing them using NMR and mass spectrometry.",
+      "summary": "I synthesized organic compounds for biological testing, purifying and characterizing them using NMR and mass spectrometry.",
       "highlights": [
         "Organic Chemistry",
         "Racemate Resolution",
