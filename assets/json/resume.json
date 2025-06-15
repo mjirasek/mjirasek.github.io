@@ -358,48 +358,24 @@
   "teaching": [
     {
       "institution": "University of Glasgow",
-      "position": "Student Supervisor",
-      "startDate": "2022-01-05",
+      "position": "MSc Student Supervisor",
+      "startDate": "2020-01-03",
       "endDate": "",
-      "summary": "Supervising undergraduate and graduate students across multiple research projects",
-      "highlights": [
-        "Supervised 12 undergraduate project students total",
-        "Directly supervised 1 PhD student through completion",
-        "Mentored Master's thesis students",
-        "Guided undergraduate summer research projects and internships",
-        "Supervised visiting PhD students from international institutions"
-      ]
+      "summary": "Designing projects for and supervising MSc students (7 in total)"
     },
     {
       "institution": "University of Oxford",
       "position": "Physics Tutor",
       "startDate": "2017-10-08", 
       "endDate": "2019-05-01",
-      "summary": "Teaching Physics for 3 colleges (1st year chemistry undergraduate students)",
-      "highlights": [
-        "Conducted weekly 90-minute tutorial sessions",
-        "Taught groups of 8–12 students",
-        "Provided individual assessment",
-      ]
+      "summary": "Teaching Physics for 3 colleges (1st year chemistry undergraduate students). Teaching groups of 4–8 students, setting problems and individual assessment"
     },
     {
       "institution": "University of Oxford",
       "position": "Lab Demonstrator",
       "startDate": "2017-10-08",
       "endDate": "2018-05-15", 
-      "summary": "Physical Chemistry laboratories (2nd–3rd year students)",
-      "highlights": [
-        "Supervised and assessed students during laboratory practicum",
-        "Guided groups of students through experimental procedures",
-        "Provided technical support during experiments"
-      ]
-    },
-    {
-      "institution": "ETH Zurich",
-      "position": "Master's Student Supervisor",
-      "startDate": "2021-03-01",
-      "endDate": "2021-07-31",
-      "summary": "Supervising master students and devising their research objectives"
+      "summary": "Physical Chemistry laboratories (2nd–3rd year students). Supervised and assessed students (groups of 8–12) during laboratory practicum"
     }
   ]
 }
