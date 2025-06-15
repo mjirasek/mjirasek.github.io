@@ -4,8 +4,8 @@
     "label": "Research Fellow & Team Leader in AI-Driven Chemistry Automation",
     "image": "",
     "email": "jirasekphd@gmail.com",
+    "phone": "+447759181863",
     "url": "https://www.michaeljirasek.com/",
-    "summary": "I am a research fellow and team leader in a research group at the University of Glasgow. With the team, I focus on digitizing chemistry. This involves building in-house robotic platforms, programming robots for chemical experiments, and implementing algorithms for online data analysis. I am developing and implementing machine learning algorithms for chemical robots to make autonomous decisions for the next experiment. I have co-authored 24 peer-reviewed scientific publications and one patent.",
     "location": {
       "address": "ARC Glasgow",
       "postalCode": "G11 6EW",
@@ -155,7 +155,7 @@
         "Retrosynthesis",
         "Reaction Mechanisms",
         "Chemical Calculations",
-        "Organic Chemistry of Selected Elements (B, F, S, Si etc.)",
+        "Organic Chemistry of Selected Elements",
         "Coordination Chemistry",
         "Metal-Organic Chemistry",
         "Supramolecular Chemistry",
@@ -377,20 +377,6 @@
       "startDate": "2017-10-08",
       "endDate": "2018-05-15", 
       "summary": "Physical Chemistry laboratories (2nd–3rd year students). Supervised and assessed students (groups of 8–12) during laboratory practicum"
-    }
-  ],
-  "references": [
-    {
-      "name": "Prof. Leroy Cronin",
-      "reference": "Current supervisor at University of Glasgow - AI and Chemistry Automation"
-    },
-    {
-      "name": "Prof. Harry Anderson",
-      "reference": "PhD supervisor at University of Oxford - Physical Organic Chemistry"
-    },
-    {
-      "name": "Prof. Helma Wennemers", 
-      "reference": "Postdoc supervisor at ETH Zurich - Peptide Chemistry"
     }
   ]
 }
