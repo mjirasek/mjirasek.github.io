@@ -327,34 +327,6 @@
       "issuer": "ThermoFisher"
     }
   ],
-  "projects": [
-    {
-      "name": "Autonomous Chemical Discovery Platform",
-      "startDate": "2022",
-      "endDate": "",
-      "description": "Developing fully autonomous robotic platforms that perform chemical reactions, automatically sample and analyze using low-field NMR, autonomously interpret results, and design next experiments.",
-      "highlights": [
-        "Integration of LLMs with robotic systems",
-        "Computer vision for experiment monitoring",
-        "Closed-loop optimization algorithms",
-        "Custom GUI for robot visualization and control"
-      ],
-      "url": ""
-    },
-    {
-      "name": "Literature Parser for Chemical Procedures",
-      "startDate": "2022", 
-      "endDate": "",
-      "description": "AI tool that standardizes chemical procedures from literature for robotic execution, addressing reproducibility challenges in chemical research.",
-      "highlights": [
-        "Natural language processing for chemical procedures",
-        "Standardization for robotic execution",
-        "Integration with laboratory automation systems"
-      ],
-      "url": ""
-    }
-  ],
-
   "teaching": [
     {
       "institution": "University of Glasgow",
