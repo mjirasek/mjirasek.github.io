@@ -3,62 +3,99 @@
   contents:
     - name: Full Name
       value: Michael Jirasek
-    - name: Date of Birth
-      value: May 1991
+    - name: Current Role
+      value: Research Fellow and Team Leader, University of Glasgow
+    - name: Research Focus
+      value: Autonomous chemistry, robotic experimentation, assembly theory, origins of life
     - name: Languages
       value: English, Czech, German
 
-- title: Education
-  type: time_table
+- title: Research Profile
+  type: list
   contents:
-    - title: PhD
-      institution: University of Oxford, Oxford, United Kingdom
-      year: 2020
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: MSc
-      institution: University of Chemistry and Technology, Prague, Czech Republic
-      year: 2016
-      description:
-        - Description 1.
-        - Description 2.
-    - title: BSc
-      institution: University of Chemistry and Technology, Prague, Czech Republic
-      year: 2013
-      description:
-        - Description 1.
-        - Description 2.
+    - Interdisciplinary researcher working across chemistry, automation engineering, and AI-enabled experimentation.
+    - Leads a research team building autonomous robotic platforms for synthesis, analytics, and closed-loop decision making.
+    - Develops quantitative frameworks for chemical complexity and prebiological selection, including assembly-theory-based metrics.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Postdoctoral Research Assistant
-      institution: University of Oxford, Oxford, United Kingdom
-      year: Jan 2020 - Dec 2020
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-
-    - title: Postdoctoral Research Assistant
-      institution: ETH Zurich, Zurich, Switzerland
-      year: Jan 2021 - Dec 2021
-      description:
-        - Description 1.
-        - Description 2.
-
     - title: Research Fellow
-      institution: University of Glasgow, Glasgow, United Kingdom
-      year: Jan 2022 - present
+      institution: University of Glasgow, United Kingdom
+      year: 2022 - present
       description:
-        - Description 1.
-        - Description 2.
+        - Leading and managing a multidisciplinary team of 9 researchers and graduate students.
+        - Developing experimental and theoretical frameworks to quantify directed chemical exploration in prebiological systems.
+        - Co-developing autonomous chemistry platforms integrating robotics, low-field NMR, computer vision, and LLM-guided workflows.
+        - Building hardware and software for laboratory automation, including CAD-based prototyping, microcontroller firmware, and Python orchestration.
+        - Secured major research funding, including a $1.25M grant from the Alfred P. Sloan Foundation.
+
+    - title: Postdoctoral Researcher
+      institution: ETH Zurich, Switzerland
+      year: 2021
+      description:
+        - Supervised MSc researchers and helped define project objectives and deliverables.
+        - Synthesized modified amino acids and peptides, including supramolecular assemblies characterized by TEM.
+        - Designed and characterized biocompatible porous peptide-based metal-organic frameworks.
+
+    - title: Postdoctoral Researcher
+      institution: University of Oxford, United Kingdom
+      year: 2020
+      description:
+        - Developed original MATLAB software for predicting ring currents from experimental NMR data.
+        - Parsed and interpreted literature NMR datasets to evaluate aromaticity in macrocyclic systems.
+        - Combined DFT and NMR approaches to investigate electronic delocalization and ring-current behavior.
+
+    - title: DPhil (PhD) Researcher
+      institution: University of Oxford, United Kingdom
+      year: 2016 - 2020
+      description:
+        - Investigated aromaticity and exciton delocalization in large porphyrin nanorings.
+        - Designed and synthesized large porphyrin-based macrocycles, including Mobius-topology targets.
+        - Analyzed ultrafast spectroscopy datasets (TRIR/2D-IR) and developed mechanism-driven analysis workflows.
+
+    - title: MSc Research Student
+      institution: University of Chemistry and Technology, Prague, Czech Republic
+      year: 2015 - 2016
+      description:
+        - Studied visible-light [2+2] photocycloadditions promoted by organocatalysts.
+        - Explored substrate scope and stereoselectivity for nitrogen-containing diene systems.
+
+- title: Education
+  type: time_table
+  contents:
+    - title: DPhil (PhD) in Chemistry
+      institution: University of Oxford, United Kingdom
+      year: 2016 - 2020
+      description:
+        - Thesis topic focused on electronic delocalization and aromaticity in porphyrin oligomers.
+
+    - title: MSc in Organic Chemistry
+      institution: University of Chemistry and Technology, Prague, Czech Republic
+      year: 2013 - 2016
+
+    - title: Research Student Internship
+      institution: ETH Zurich, Switzerland
+      year: 2014 - 2015
+
+- title: Technical Expertise
+  type: map
+  contents:
+    - name: Research Leadership
+      value: Strategic direction of multidisciplinary research programs, team leadership, project portfolio prioritization, and delivery against scientific milestones.
+    - name: Autonomous Experimentation
+      value: End-to-end design of closed-loop laboratory systems integrating robotic execution, analytical feedback, and model-informed decision making.
+    - name: AI-Enabled Discovery
+      value: Application of machine learning and large language models to experimental planning, literature-grounded method translation, and adaptive optimization workflows.
+    - name: Chemical Science
+      value: Advanced expertise in synthesis, spectroscopy, reaction mechanism analysis, and complexity-focused experimental design across molecular systems.
+    - name: Quantitative and Computational Methods
+      value: Development and application of computational frameworks for molecular interpretation, mechanistic inference, and complexity/selection quantification.
+- title: Selected Highlights
+  type: list
+  contents:
+    - Co-authored 29 publications listed on this website (peer-reviewed papers, conference proceedings, and preprints).
+    - Contributor to research spanning Nature Chemistry, JACS, ACS Central Science, and Chemical Science.
+    - Holds one patent and has delivered more than 50 presentations across group meetings, conferences, and invited seminars.
+
 
