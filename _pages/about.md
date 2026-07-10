@@ -12,8 +12,6 @@ profile:
    <p>Advanced Research Center, G11 6EW</p>
    <p>Glasgow, United Kingdom</p>
 news: false # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-
-I work on robotic and AI-assisted chemistry, with a focus on autonomous experimentation, molecular spectroscopy, and quantitative descriptions of molecular complexity.
