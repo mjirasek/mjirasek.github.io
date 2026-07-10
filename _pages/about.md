@@ -18,4 +18,4 @@ social: false # includes social icons at the bottom of the page
 
 I work at the interface of chemistry, robotics, and AI, building systems that make experimental chemistry more programmable, measurable, and autonomous. My expertise spans synthetic organic chemistry, supramolecular and materials chemistry, spectroscopy, molecular complexity, hardware prototyping, and closed-loop experimental design.
 
-I am currently a Research Fellow in the Lee Cronin group at the University of Glasgow and a Scientific Advisor at Theorema Inc. Before this, I trained and worked at UCT Prague, the University of Oxford, and ETH Zurich.
+I am currently a Research Fellow in the Lee Cronin group at the University of Glasgow. Before this, I trained and worked at UCT Prague, the University of Oxford, and ETH Zurich.
