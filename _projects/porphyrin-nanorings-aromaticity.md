@@ -12,11 +12,7 @@ This project covers the molecular nanoring work that links synthesis, spectrosco
 
 ## Quantum Rings
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/publication_preview/2021_accres_jirasek_macrocycles_2021.png" title="Porphyrin nanoring preview" class="img-fluid rounded" figure_class="project-figure z-depth-1" %}
-  </div>
-</div>
+{% include project_figure.liquid loading="eager" path="assets/img/publication_preview/2021_accres_jirasek_macrocycles_2021.png" title="Porphyrin nanoring preview" %}
 
 Large conjugated rings are a useful test bed for questions that are usually asked in much smaller molecules: how far aromaticity extends, how ring currents behave, and how molecular geometry controls electronic communication.
 

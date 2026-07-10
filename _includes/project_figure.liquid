@@ -1,0 +1,15 @@
+{% assign project_figure_class = include.figure_class | default: 'project-figure z-depth-1' %}
+{% assign project_image_class = include.class | default: 'img-fluid rounded' %}
+
+{%
+  include figure.liquid
+  loading=include.loading
+  path=include.path
+  title=include.title
+  alt=include.alt
+  sizes=include.sizes
+  class=project_image_class
+  figure_class=project_figure_class
+  caption=include.caption
+  zoomable=include.zoomable
+%}

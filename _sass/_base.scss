@@ -679,18 +679,26 @@ footer.sticky-bottom {
 }
 
 .project-figure {
+  max-width: 760px;
   border-radius: 8px;
   background: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
   padding: 0.75rem;
-  margin: 1rem 0 1.5rem;
+  margin: 1.25rem auto 1.75rem;
 
   picture {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 
   img {
     display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: 520px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
   }
 
   .caption {
@@ -699,6 +707,17 @@ footer.sticky-bottom {
     padding-top: 0.75rem;
     border-top: 1px solid var(--global-divider-color);
     text-align: left;
+  }
+}
+
+@media (max-width: 575px) {
+  .project-figure {
+    max-width: 100%;
+
+    img {
+      width: 100%;
+      max-height: none;
+    }
   }
 }
 
