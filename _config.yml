@@ -8,10 +8,11 @@ middle_name:
 last_name: Jirasek
 email: jirasekphd@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  This is description. test. 
+  Personal research page of Michael Jirasek, focused on robotic chemistry,
+  autonomous experimentation, molecular complexity, and spectroscopy.
 footer_text: >
   
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: robotic chemistry, autonomous chemistry, assembly theory, spectroscopy, molecular complexity, chemputation
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: mj_icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -310,8 +311,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Jirasek, Jirásek, JirÃ¡sek]
+  first_name: [Michael, M.]
 
   style: apa
   locale: en

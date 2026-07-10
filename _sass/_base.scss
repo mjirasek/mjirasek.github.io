@@ -617,6 +617,63 @@ footer.sticky-bottom {
 
 // Projects
 
+.research-focus-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin: 1.6rem 0 1.4rem;
+}
+
+.research-focus-tile {
+  display: block;
+  color: var(--global-text-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+
+    .research-focus-image {
+      border-color: var(--global-theme-color);
+    }
+  }
+}
+
+.research-focus-image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  padding: 0.55rem;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+}
+
+.research-focus-label {
+  display: block;
+  margin-top: 0.45rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.about-links {
+  margin-top: 1rem;
+  font-weight: 600;
+
+  span {
+    margin: 0 0.35rem;
+    color: var(--global-text-color-light);
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 575px) {
+  .research-focus-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .projects {
   a {
     text-decoration: none;
@@ -629,8 +686,32 @@ footer.sticky-bottom {
   }
 
   .card {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    overflow: hidden;
+
     img {
       width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: contain;
+      padding: 0.6rem;
+      background: var(--global-bg-color);
+    }
+
+    .card-body {
+      padding: 0.9rem;
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      line-height: 1.25;
+      margin-bottom: 0.4rem;
+    }
+
+    .card-text {
+      color: var(--global-text-color-light);
+      font-size: 0.9rem;
+      line-height: 1.35;
     }
   }
 
@@ -652,6 +733,13 @@ footer.sticky-bottom {
     margin-bottom: 1rem;
     text-align: right;
   }
+}
+
+.project-figure {
+  border-radius: 8px;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  padding: 0.75rem;
 }
 
 // Publications
