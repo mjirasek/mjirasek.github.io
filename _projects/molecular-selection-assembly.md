@@ -14,7 +14,7 @@ This work uses Assembly Theory to study selection at the molecular scale. Instea
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/publication_preview/2024_arxiv_kahana2024constructing.png" title="Molecular selection and assembly" class="img-fluid rounded project-figure z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/publication_preview/2024_arxiv_kahana2024constructing.png" title="Molecular selection and assembly" class="img-fluid rounded" figure_class="project-figure z-depth-1" %}
   </div>
 </div>
 

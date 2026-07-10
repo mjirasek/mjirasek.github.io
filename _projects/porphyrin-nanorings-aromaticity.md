@@ -14,7 +14,7 @@ This project covers the molecular nanoring work that links synthesis, spectrosco
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/publication_preview/2021_accres_jirasek_macrocycles_2021.png" title="Porphyrin nanoring preview" class="img-fluid rounded project-figure z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/publication_preview/2021_accres_jirasek_macrocycles_2021.png" title="Porphyrin nanoring preview" class="img-fluid rounded" figure_class="project-figure z-depth-1" %}
   </div>
 </div>
 

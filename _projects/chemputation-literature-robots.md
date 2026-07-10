@@ -14,7 +14,7 @@ This project connects chemical literature, language models, XDL, and robotic syn
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/publication_preview/2024_arxiv_pagel2024validationscientificliteraturechemputation.png" title="Chemputation workflow" class="img-fluid rounded project-figure z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/publication_preview/2024_arxiv_pagel2024validationscientificliteraturechemputation.png" title="Chemputation workflow" class="img-fluid rounded" figure_class="project-figure z-depth-1" %}
   </div>
 </div>
 

@@ -16,11 +16,8 @@ The work uses Assembly Theory to connect molecular structure, spectroscopic obse
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/molecular_assembly_spectroscopy.png" title="Molecular Assembly and Spectroscopic Techniques" class="img-fluid rounded project-figure z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/molecular_assembly_spectroscopy.png" title="Molecular Assembly and Spectroscopic Techniques" class="img-fluid rounded" figure_class="project-figure z-depth-1" caption="Three complementary experimental readouts, NMR, IR, and MS/MS, are used to estimate molecular assembly complexity." %}
   </div>
-</div>
-<div class="caption">
-  Three complementary experimental readouts, NMR, IR, and MS/MS, are used to estimate molecular assembly complexity.
 </div>
 
 NMR reports on the number and type of distinct atomic environments. IR provides a compact fingerprint of functional group and vibrational diversity. MS/MS gives a fragmentation graph that can be compared with assembly pathways. Together these measurements make complexity a practical experimental observable.
@@ -29,11 +26,8 @@ NMR reports on the number and type of distinct atomic environments. IR provides 
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/correlation_plots.png" title="Correlation Results" class="img-fluid rounded project-figure z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/correlation_plots.png" title="Correlation Results" class="img-fluid rounded" figure_class="project-figure z-depth-1" caption="Experimental estimates correlate with computed molecular assembly across chemically diverse samples." %}
   </div>
-</div>
-<div class="caption">
-  Experimental estimates correlate with computed molecular assembly across chemically diverse samples.
 </div>
 
 The key technical result is that different instruments can converge on a shared complexity estimate. That matters because it makes the method robust to the constraints of real samples and real instruments.
