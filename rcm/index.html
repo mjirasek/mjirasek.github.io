@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RCM C++ Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+    <script src="config.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <h1>RCM C++ Lab</h1>
+        <div id="status" class="status">connecting</div>
+      </header>
+
+      <section class="controls">
+        <label>Mode<select id="mode"><option value="legacy">GitHub legacy</option><option value="chem_sc">Chem Sci give_RCM</option></select></label>
+        <label>Connectivity<select id="transform"><option value="none">Original</option><option value="swap">Swap start/end</option><option value="rows">Reverse row order</option><option value="swap_rows">Swap + reverse rows</option></select></label>
+        <label>Backend<select id="backend"><option value="cpp">C++ / OpenMP</option><option value="python">Python fallback</option></select></label>
+        <label>Separation<input id="separation" type="number" min="0" step="0.05" value="0.7"></label>
+        <label>Field grid<input id="grid-size" type="number" min="20" max="150" step="5" value="40"></label>
+        <label>Field span<input id="field-span" type="number" min="1" max="5" step="0.1" value="1.5"></label>
+        <label>Iso factor<input id="iso-scale" type="range" min="-2" max="2" step="0.05" value="0"></label>
+        <label>Sign<select id="sign-convention"><option value="raw">Raw path orientation</option><option value="interior_positive">Interior positive</option></select></label>
+        <label class="check"><input id="special-rotation" type="checkbox">special rotation</label>
+        <div class="layers">
+          <label><input type="checkbox" name="layers" value="atoms" checked>atoms</label>
+          <label><input type="checkbox" name="layers" value="labels">labels</label>
+          <label><input type="checkbox" name="layers" value="bonds" checked>bonds</label>
+          <label><input type="checkbox" name="layers" value="connectivity" checked>connectivity</label>
+          <label><input type="checkbox" name="layers" value="arrows">arrows</label>
+          <label><input type="checkbox" name="layers" value="offset" checked>offset path</label>
+          <label><input type="checkbox" name="layers" value="probes">probes</label>
+          <label><input type="checkbox" name="layers" value="field">field</label>
+        </div>
+        <button id="update" type="button">Update</button>
+      </section>
+
+      <main class="workspace">
+        <section class="panel visual-panel">
+          <div class="panel-heading">
+            <div class="panel-title">Unified 3D view</div>
+            <div id="field-meta" class="field-meta"></div>
+          </div>
+          <div id="scene" class="scene-graph"></div>
+        </section>
+
+        <section class="panel analysis-panel">
+          <div class="tabs">
+            <button class="tab active" data-tab="fit" type="button">Fit</button>
+            <button class="tab" data-tab="rcgf" type="button">RCGF</button>
+            <button class="tab" data-tab="model" type="button">Model</button>
+          </div>
+          <div id="analysis" class="analysis-graph"></div>
+          <dl id="model-list" class="model-list hidden"></dl>
+        </section>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
