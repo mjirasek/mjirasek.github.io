@@ -11,3 +11,10 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# Claude Code
+CLAUDE.md
+.claude/
+
+# Handover / transfer notes (not part of the site)
+EXPERIENCE.md

@@ -9,6 +9,14 @@
       value: Autonomous chemistry, robotic experimentation, assembly theory, origins of life
     - name: Languages
       value: English, Czech, German
+    - name: Profiles
+      links:
+        - name: LinkedIn
+          link: https://www.linkedin.com/in/michael-jirasek-04b023273/
+        - name: ORCID
+          link: # TODO: add ORCID URL (e.g. https://orcid.org/0000-0000-0000-0000)
+        - name: Google Scholar
+          link: # TODO: add Google Scholar profile URL
 
 - title: Research Profile
   type: list
@@ -91,11 +99,17 @@
       value: Advanced expertise in synthesis, spectroscopy, reaction mechanism analysis, and complexity-focused experimental design across molecular systems.
     - name: Quantitative and Computational Methods
       value: Development and application of computational frameworks for molecular interpretation, mechanistic inference, and complexity/selection quantification.
+- title: Selected Publications
+  type: list
+  contents:
+    - "Jirasek, M. <em>et al.</em> Investigating and Quantifying Molecular Complexity Using Assembly Theory and Spectroscopy. <em>ACS Central Science</em> (2024)."
+    - "Pagel, S., Jirasek, M., Cronin, L. Validation of the Scientific Literature via Chemputation Augmented by Large Language Models (2024)."
+    - "Kahana, A., Jirasek, M. <em>et al.</em> Identifying Molecular Selection Using Assembly Theory and Closed-Loop Experiments (2023)."
+    - 'Full list on the <a href="/publications/">publications page</a>.'
+
 - title: Selected Highlights
   type: list
   contents:
     - Co-authored 29 publications listed on this website (peer-reviewed papers, conference proceedings, and preprints).
     - Contributor to research spanning Nature Chemistry, JACS, ACS Central Science, and Chemical Science.
     - Holds one patent and has delivered more than 50 presentations across group meetings, conferences, and invited seminars.
-
-
