@@ -30,7 +30,7 @@ social: false # includes social icons at the bottom of the page
     <span>Organic Chemistry · 2020</span>
   </div>
   <div class="landing-fact">
-    <strong>31 publications · h-index 18</strong>
+    <strong>31 publications · h&#8209;index 18</strong>
     <span>Chemistry, spectroscopy, and scientific AI</span>
   </div>
   <div class="landing-fact">
