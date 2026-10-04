@@ -16,6 +16,25 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a researcher and team leader working at the interface of chemistry, robotics, and AI, building systems that make experimental chemistry more programmable, measurable, and autonomous. My expertise spans synthetic organic chemistry, supramolecular and materials chemistry, spectroscopy, molecular complexity, hardware prototyping, and closed-loop experimental design.
+<section class="landing-brief" aria-labelledby="landing-brief-title">
+  <p class="landing-brief-kicker">Chemistry · Robotics · AI</p>
+  <h2 id="landing-brief-title">Building laboratories that can learn from experiments.</h2>
+  <p>I am a chemist, researcher, and team leader working on autonomous experimentation, scientific AI, and robotic chemistry. I connect molecular science with instrumentation, software, and decision-making systems that make experimental work more programmable and measurable.</p>
+</section>
 
-I am currently a Research Fellow in the Lee Cronin group at the University of Glasgow. Before this, I trained and worked at UCT Prague, the University of Oxford, and ETH Zurich.
+<div class="landing-facts" aria-label="Research profile">
+  <div class="landing-fact">
+    <strong>PhD, Oxford</strong>
+    <span>Organic Chemistry · 2020</span>
+  </div>
+  <div class="landing-fact">
+    <strong>31 publications</strong>
+    <span>Chemistry, spectroscopy, and scientific AI</span>
+  </div>
+  <div class="landing-fact">
+    <strong>Research Fellow</strong>
+    <span>University of Glasgow · Lee Cronin group</span>
+  </div>
+</div>
+
+<p>My work spans molecular complexity, spectroscopy, hardware prototyping, and closed-loop experimental design. Before Glasgow, I trained at the University of Chemistry and Technology in Prague, the University of Oxford, and ETH Zurich.</p>

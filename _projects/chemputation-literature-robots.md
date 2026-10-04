@@ -12,7 +12,7 @@ This project connects chemical literature, language models, XDL, and robotic syn
 
 ## Workflow
 
-{% include project_figure.liquid loading="eager" path="assets/img/publication_preview/2024_arxiv_pagel2024validationscientificliteraturechemputation.png" title="Chemputation workflow" %}
+{% include project_figure.liquid loading="eager" path="assets/img/publication_preview/2024_arxiv_pagel2024validationscientificliteraturechemputation.png" title="Chemputation workflow" label="Figure 1" caption="A literature-to-robot workflow for extracting, validating, and executing synthetic procedures." %}
 
 The central design principle is verification. A language model can help parse and translate experimental procedures, but the output has to be constrained by a chemical execution language and tested against available hardware before anything reaches the robot.
 

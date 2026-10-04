@@ -12,7 +12,7 @@ This work uses Assembly Theory to study selection at the molecular scale. Instea
 
 ## Molecular Histories
 
-{% include project_figure.liquid loading="eager" path="assets/img/publication_preview/2024_arxiv_kahana2024constructing.png" title="Molecular selection and assembly" %}
+{% include project_figure.liquid loading="eager" path="assets/img/publication_preview/2024_arxiv_kahana2024constructing.png" title="Molecular selection and assembly" label="Figure 1" caption="Assembly-based representations compare molecular histories and chemical selection across complex samples." %}
 
 Assembly-based representations can compare chemical samples without requiring complete structural annotation. That is useful for complex mixtures, environmental samples, and systems where the relevant chemistry is not known in advance.
 

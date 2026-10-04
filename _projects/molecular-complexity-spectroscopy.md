@@ -14,13 +14,13 @@ The work uses Assembly Theory to connect molecular structure, spectroscopic obse
 
 ## Measurement Scheme
 
-{% include project_figure.liquid loading="eager" path="assets/img/molecular_assembly_spectroscopy.png" title="Molecular Assembly and Spectroscopic Techniques" caption="Three complementary experimental readouts, NMR, IR, and MS/MS, are used to estimate molecular assembly complexity." %}
+{% include project_figure.liquid loading="eager" path="assets/img/molecular_assembly_spectroscopy.png" title="Molecular Assembly and Spectroscopic Techniques" label="Figure 1" caption="Three complementary experimental readouts, NMR, IR, and MS/MS, are used to estimate molecular assembly complexity." %}
 
 NMR reports on the number and type of distinct atomic environments. IR provides a compact fingerprint of functional group and vibrational diversity. MS/MS gives a fragmentation graph that can be compared with assembly pathways. Together these measurements make complexity a practical experimental observable.
 
 ## Results
 
-{% include project_figure.liquid loading="eager" path="assets/img/correlation_plots.png" title="Correlation Results" caption="Experimental estimates correlate with computed molecular assembly across chemically diverse samples." %}
+{% include project_figure.liquid loading="eager" path="assets/img/correlation_plots.png" title="Correlation Results" label="Figure 2" caption="Experimental estimates correlate with computed molecular assembly across chemically diverse samples." %}
 
 The key technical result is that different instruments can converge on a shared complexity estimate. That matters because it makes the method robust to the constraints of real samples and real instruments.
 

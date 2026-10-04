@@ -215,6 +215,67 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+.landing-brief {
+  margin: 1.5rem 0 1.25rem;
+  padding: 1.25rem 1.4rem;
+  border-left: 4px solid var(--global-theme-color);
+  background: var(--global-card-bg-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+
+  .landing-brief-kicker {
+    margin: 0 0 0.4rem;
+    color: var(--global-theme-color);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin: 0 0 0.65rem;
+    font-size: 1.45rem;
+    line-height: 1.2;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.landing-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin: 1.25rem 0 1.5rem;
+}
+
+.landing-fact {
+  padding: 0.9rem 1rem;
+  border-top: 2px solid var(--global-divider-color);
+
+  strong,
+  span {
+    display: block;
+  }
+
+  strong {
+    margin-bottom: 0.25rem;
+    font-size: 0.95rem;
+  }
+
+  span {
+    color: var(--global-text-color-light);
+    font-size: 0.8rem;
+    line-height: 1.35;
+  }
+}
+
+@media (max-width: 575px) {
+  .landing-facts {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -680,15 +741,18 @@ footer.sticky-bottom {
 
 .project-figure {
   max-width: 760px;
-  border-radius: 8px;
+  border-radius: 6px;
   background: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
-  padding: 0.75rem;
-  margin: 1.25rem auto 1.75rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  padding: 0;
+  margin: 2rem auto 2.25rem;
 
   picture {
     display: flex;
     justify-content: center;
+    padding: 1rem;
   }
 
   img {
@@ -701,12 +765,30 @@ footer.sticky-bottom {
     margin: 0 auto;
   }
 
-  .caption {
+  .figure-caption {
+    display: grid;
+    gap: 0.2rem;
     color: var(--global-text-color-light);
-    margin: 0.75rem 0 0;
-    padding-top: 0.75rem;
+    margin: 0;
+    padding: 0.85rem 1rem 0.95rem;
     border-top: 1px solid var(--global-divider-color);
+    background: color-mix(in srgb, var(--global-divider-color) 12%, var(--global-card-bg-color));
     text-align: left;
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+
+  .figure-caption-label {
+    color: var(--global-text-color);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .figure-caption-credit {
+    font-size: 0.8rem;
+    font-style: italic;
   }
 }
 

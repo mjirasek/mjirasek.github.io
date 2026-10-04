@@ -12,7 +12,7 @@ This project groups earlier work on chiral organic and organometallic chromophor
 
 ## Molecular Design
 
-{% include project_figure.liquid loading="eager" path="assets/img/publication_preview/2017_jpca_buckley2017tunable.png" title="Chiral helquat chromophores" %}
+{% include project_figure.liquid loading="eager" path="assets/img/publication_preview/2017_jpca_buckley2017tunable.png" title="Chiral helquat chromophores" label="Figure 1" caption="Helquat chromophores connect molecular shape and charge to measurable optical and chiroptical responses." %}
 
 The scientific theme is control: designing molecular shape, charge, conjugation, and stereochemistry to tune measurable optical properties.
 

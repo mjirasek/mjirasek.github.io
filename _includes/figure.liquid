@@ -81,7 +81,11 @@
     >
   </picture>
 
-  {% if include.caption %}
-    <figcaption class="caption">{{ include.caption }}</figcaption>
+  {% if include.caption or include.credit %}
+    <figcaption class="caption figure-caption">
+      {% if include.label %}<span class="figure-caption-label">{{ include.label }}</span>{% endif %}
+      {% if include.caption %}<span class="figure-caption-text">{{ include.caption }}</span>{% endif %}
+      {% if include.credit %}<span class="figure-caption-credit">{{ include.credit }}</span>{% endif %}
+    </figcaption>
   {% endif %}
 </figure>
