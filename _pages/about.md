@@ -39,4 +39,4 @@ social: false # includes social icons at the bottom of the page
   </div>
 </div>
 
-<p>My work spans molecular complexity, spectroscopy, hardware prototyping, and closed-loop experimental design. Before Glasgow, I trained at the University of Chemistry and Technology in Prague, the University of Oxford, and ETH Zurich.</p>
+<p>My work spans molecular complexity, spectroscopy, hardware prototyping, and closed-loop experimental design. Before Glasgow, I studied and worked at the University of Chemistry and Technology in Prague, the University of Oxford, and ETH Zurich.</p>
