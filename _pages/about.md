@@ -12,6 +12,7 @@ profile:
     <p>Advanced Research Center, G11 6EW</p>
     <p>Glasgow, United Kingdom</p>
     <p><a href="https://www.linkedin.com/in/michael-jirasek-04b023273/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+    <p><a href="https://scholar.google.com/citations?user=UL55zJYAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -29,7 +30,7 @@ social: false # includes social icons at the bottom of the page
     <span>Organic Chemistry · 2020</span>
   </div>
   <div class="landing-fact">
-    <strong>31 publications</strong>
+    <strong>31 publications · h-index 18</strong>
     <span>Chemistry, spectroscopy, and scientific AI</span>
   </div>
   <div class="landing-fact">

@@ -17,6 +17,11 @@
                                         "network":  "linkedin",
                                         "username":  "michael-jirasek-04b023273",
                                         "url":  "https://www.linkedin.com/in/michael-jirasek-04b023273/"
+                                    },
+                                    {
+                                        "network":  "googlescholar",
+                                        "username":  "UL55zJYAAAAJ",
+                                        "url":  "https://scholar.google.com/citations?user=UL55zJYAAAAJ&hl=en"
                                     }
                                 ],
                    "summary":  "Interdisciplinary chemist and research leader working at the interface of chemistry, robotics, and machine intelligence. I develop autonomous experimentation platforms and quantitative frameworks for chemical complexity and prebiological selection, with applications to origins-of-life research and closed-loop discovery."

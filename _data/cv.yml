@@ -16,7 +16,7 @@
         - name: ORCID
           link: # TODO: add ORCID URL (e.g. https://orcid.org/0000-0000-0000-0000)
         - name: Google Scholar
-          link: # TODO: add Google Scholar profile URL
+          link: https://scholar.google.com/citations?user=UL55zJYAAAAJ&hl=en
 
 - title: Research Profile
   type: list
