@@ -20,7 +20,7 @@ social: false # includes social icons at the bottom of the page
 
 <section class="landing-brief" aria-labelledby="landing-brief-title">
   <p class="landing-brief-kicker">Chemistry · Robotics · AI</p>
-  <h2 id="landing-brief-title">Building laboratories that can learn from experiments.</h2>
+  <h2 id="landing-brief-title">Building self-driving laboratories.</h2>
   <p>I am a chemist, researcher, and team leader working on autonomous experimentation, scientific AI, and robotic chemistry. I connect molecular science with instrumentation, software, and decision-making systems that make experimental work more programmable and measurable.</p>
 </section>
 
